@@ -2,8 +2,8 @@ from pathlib import Path
 from docx import Document
 import re
 
-INPUT_DIR = Path("Nivel1_Leccion1")
-OUTPUT_DIR = Path("markdown_nivel1_leccion1")
+INPUT_DIR = Path("Nivel2_Leccion1")
+OUTPUT_DIR = Path("markdown_nivel2_leccion1")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 HEADING_MAP = {
